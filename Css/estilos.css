@@ -1,0 +1,102 @@
+article{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    padding-left: 10px;
+}
+
+p{
+    font-family:'Montserrat', sans-serif;   
+  font-weight: bold;
+}
+span{
+    opacity: 0.6;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+    background:white;  
+    border-radius: 26px; 
+}
+.img-header{
+    width: 100%;
+    
+}
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 22px;
+    display: flex;
+    display: inline;
+}
+
+ul{
+    list-style-type:none;
+    background:black;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    font-family:'Big Shoulders Stencil Display', cursive ;
+    font-size: 20px;
+    border-radius: 23px;
+  }
+  li a{
+    display:block;
+    padding: 20px 25px;
+    Color: white;
+    Text-decoration: none;
+  }
+  li{
+    float: left;
+  }
+
+li a:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.boton{
+
+    margin: 2px;
+    border: 2px solid black;
+    width: 70px;
+    height: 25px;
+    font-weight: bold;
+    color:black;
+    font-family:'Big Shoulders Stencil Display', cursive ;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    
+    
+}
+
+.boton:hover{
+    background: red;
+    color:white;
+    cursor: pointer;
+}
+
+
+h1{
+    font-size: 30px;
+
+}
+
+body{
+    background:url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+ background-color: black;
+ width: 1200px;
+ height: 60px;
+ clear: both;
+ text-align: center;
+ padding: 20px 20px;
+ box-sizing: border-box;
+ color: white;
+ border-radius: 23px;
+
+}
